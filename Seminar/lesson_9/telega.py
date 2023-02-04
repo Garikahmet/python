@@ -14,4 +14,5 @@ app.add_handler(CommandHandler("hello", hello))
 print('server start')
 app.run_polling()
 
+
 os.path.join(os.path.dirname(sys.argv[0]), 'telega.py')
